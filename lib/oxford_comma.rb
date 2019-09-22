@@ -1,3 +1,4 @@
 def oxford_comma(array)
-array.join
+array.join each do |word|
+  word + " and "
 end
