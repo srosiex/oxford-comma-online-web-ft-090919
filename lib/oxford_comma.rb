@@ -1,5 +1,5 @@
 def oxford_comma(array)
-array.join each do |word|
-  word + " and "
+array.join(" and ")
+
 end
 end
